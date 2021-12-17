@@ -43,5 +43,7 @@ PUSHER_APP_SECRET=
 
 COPY . .
 RUN composer update
+RUN chmod 777 -R storage
+RUN chmod 777 -R public
 CMD php artisan serve --host=0.0.0.0 --port=8181
 EXPOSE 8181

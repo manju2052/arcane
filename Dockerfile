@@ -15,11 +15,11 @@ APP_LOG_LEVEL=debug \
 APP_URL=http://localhost \
 
 DB_CONNECTION=mysql \
-DB_HOST=arcane-db.cdktzyzb7pun.ap-south-1.rds.amazonaws.com \
+DB_HOST=database-1-arcana.c3hvth1mzc9a.ap-south-1.rds.amazonaws.com \
 DB_PORT=3306 \
 DB_DATABASE=homestead \
 DB_USERNAME=admin \
-DB_PASSWORD=password \
+
 
 BROADCAST_DRIVER=log \
 CACHE_DRIVER=file \
